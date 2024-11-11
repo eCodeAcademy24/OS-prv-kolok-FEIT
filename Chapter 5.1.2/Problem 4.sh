@@ -20,5 +20,5 @@ done
 
 if [ -n "$arguments" ]
 then
-    echo $(python3 "../Problem 3/Problem 3.py" $file) >> "Output.txt"
+    echo $(python3 "../Problem 3/Problem 3.py" $arguments) >> "Output.txt"
 fi
