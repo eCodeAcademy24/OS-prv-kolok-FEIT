@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
     }
     else {
         for (i = 0; i < 5; ++i) {
-            waitpid(threads[i], NULL, WAIT_MYPGRP);
+            waitpid(children[i], NULL, WAIT_MYPGRP);
         }
     }
 
